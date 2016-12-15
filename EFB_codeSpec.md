@@ -1,6 +1,5 @@
 # 编码规范
-
-
+默认参考Apple：Coding Guidelines for Cocoa以及Github的补充，除非以下特别声明
 # 文件、类
 * 顶层模块以EFB前缀
 * 其他模块以模块名称作为前缀
