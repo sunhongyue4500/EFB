@@ -4,7 +4,7 @@
 # 文件、类
 * 顶层模块以EFB前缀。
 * 其他模块以模块名称作为前缀。
-* 模块内部分为Models、Views、Controllers、Submodules、Constants、Utils。
+* 模块内部分为Models、Views、Controllers、Submodules、Constants、Utils、Storyboard。
 
 # 资源文件
 * 图片资源统一放在xcasset，命名方式为所有单词首字母小写，模块名称作为前缀，下划线分割。如： more_setting。
