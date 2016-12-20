@@ -7,7 +7,7 @@
 * 模块内部分为Models、Views、Controllers、Submodules、Constants、Utils、Storyboard。
 
 # 资源文件
-* 图片资源统一放在xcasset，命名方式为所有单词首字母小写，模块名称作为前缀，下划线分割。如： more_setting。
+* 图片资源统一放在xcasset，命名方式为所有单词首字母小写，模块名称作为前缀，下划线分割，图片名驼峰命名。如： setting_moreBright。
 
 # 分类规范
 头文件命名为原类名+项目名+功能/用途。
