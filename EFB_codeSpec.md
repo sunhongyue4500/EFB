@@ -1,13 +1,16 @@
 # 编码规范
 默认参考Apple[Coding Guidelines for Cocoa](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)以及[Github](https://github.com/github/objective-c-style-guide)的补充，除非以下特别声明。
 
+# 常量
+k+Pascal命名
+
 # 文件、类
 * 顶层模块以EFB前缀。
 * 其他模块以模块名称作为前缀。
 * 模块内部分为Models、Views、Controllers、Submodules、Constants、Utils、Storyboard。
 
 # 资源文件
-* 图片资源统一放在xcasset，命名方式为所有单词首字母小写，模块名称作为前缀，下划线分割，图片名驼峰命名。如： setting_moreBright。
+* 图片资源放在xcassets，每个子模块分别管理各自的xcassets，命名方式为所有单词首字母小写，模块名称作为前缀，下划线分割，图片名驼峰命名。如： setting_moreBright。
 
 # 分类规范
 头文件命名为原类名+项目名+功能/用途。
